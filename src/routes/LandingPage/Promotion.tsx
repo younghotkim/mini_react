@@ -13,20 +13,32 @@ export default function Promotion() {
     [comments]
   )
   return (
-    <section className="w-full mt-4">
-      <h2 className="ml-4 font-bold text-5xl">What our customers say:</h2>
-      <div className="flex justify-between w-full p-4">
+    <section className="w-full mt-4 bg-base-100">
+      <h2 className="ml-4 font-bold text-5xl">유저 후기:</h2>
+      <div className="flex justify-around w-full p-4">
         <Div
           width="15%"
           minWidth="15%"
-          className="flex items-center justify-center text-white bg-primary">
+          className="flex items-center justify-center text-white bg-blue-400">
           Your message here
         </Div>
-        <div className="flex flex-wrap justify-center p-4 mt-4">{children}</div>
         <Div
           width="15%"
           minWidth="15%"
-          className="flex items-center justify-center text-white bg-primary">
+          minHeight="20rem"
+          className="flex items-center justify-center text-white bg-blue-400">
+          Your message here
+        </Div>
+        <Div
+          width="15%"
+          minWidth="15%"
+          className="flex items-center justify-center text-white bg-blue-400">
+          Your advertizement here
+        </Div>
+        <Div
+          width="15%"
+          minWidth="15%"
+          className="flex items-center justify-center text-white bg-blue-400">
           Your advertizement here
         </Div>
       </div>
