@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Tenada';
+  src: url('./fonts/Tenada.ttf');
+}
+
 .material-icons {
   font-family: 'Material Icons';
   display: inline-block;

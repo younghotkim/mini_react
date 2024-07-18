@@ -1,9 +1,11 @@
 module.exports = {
-  content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
-  ],
+  content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        tenada: ['Tenada']
+      }
+    }
   },
-plugins: [require('@tailwindcss/line-clamp'), require('daisyui')],
+  plugins: [require('@tailwindcss/line-clamp'), require('daisyui')]
 }
