@@ -79,7 +79,7 @@ export default function Hero() {
           }}
         />
       </Div>
-      <YouTubePlayer width="100%" height="860px" videoId="tkoy249-AVg" />
+      <YouTubePlayer width="100%" height="860px" videoId="JHkOfGIcZPM" />
       <Div
         className="bg-black w-full flex flex-col items-end justify-center"
         minHeight="30rem"
