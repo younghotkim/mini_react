@@ -13,6 +13,8 @@ export default function Promotion() {
       )),
     [comments]
   )
+
+  ////////////////////////////////random comments///////////////////////////////////////////////////
   return (
     <section className="w-full mt-4 bg-base-100">
       <div className="section-wrapper flex justify-around w-full p-4">
