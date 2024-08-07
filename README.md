@@ -7,15 +7,14 @@
 
 ![image](https://github.com/user-attachments/assets/804eb2b0-cac6-40cf-8947-45b897b2c363)
 
-
-
 정보 마인드맵
 
 서비스 흐름도:
 
 2. 기술 스택 및 배포 환경
    Html/CSS JavaScript TypeScript Node.js
-   React
+   Node Express
+   Lambda DynamoDB
 
 3. github repo, url 생성
 
